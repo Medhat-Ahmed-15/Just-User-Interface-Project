@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".Counter">
+
+
+    <EditText
+        android:id="@+id/Output_EditText"
+        android:layout_width="81dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="176dp"
+        android:ems="10"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textColor="#FF0000"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <TextView
+        android:id="@+id/counter_Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="@string/counter"
+        android:textColor="#C61919"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="224dp"
+        android:layout_height="122dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <RadioButton
+            android:id="@+id/CounterUp_radioButton"
+            android:layout_width="181dp"
+            android:layout_height="55dp"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="COUNTER UP"
+            android:textColor="#FFFFE0"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/CounterDown_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="COUNTER DOWN"
+            android:textColor="#FFFFE0"
+            android:textSize="25sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Count_Button"
+        android:layout_width="203dp"
+        android:layout_height="75dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="COUNT"
+        android:textColor="#FFFFE0"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="back"
+        android:textColor="#FFFFE0"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

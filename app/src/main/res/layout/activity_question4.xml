@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".Question4">
+
+
+    <TextView
+        android:id="@+id/question4_textView"
+        android:layout_width="280dp"
+        android:layout_height="136dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="@string/question_4"
+        android:textColor="#C61919"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/gender_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeTitle_textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/gender"
+        android:textColor="#FFFFE0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="224dp"
+        android:layout_height="122dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277">
+
+        <RadioButton
+            android:id="@+id/male_radioButton"
+            android:layout_width="181dp"
+            android:layout_height="55dp"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="@string/male"
+            android:textColor="#FFFFE0"
+            android:textSize="35sp" />
+
+        <RadioButton
+            android:id="@+id/female_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="@string/female"
+            android:textColor="#FFFFE0"
+            android:textSize="35sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/show_Button"
+        android:layout_width="127dp"
+        android:layout_height="64dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="SHOW"
+        android:textColor="#FFFFE0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hideCheckBox_Button"
+        android:layout_width="208dp"
+        android:layout_height="91dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="HIDE CHECKBOX"
+        android:textColor="#FFFFE0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'M NOT CHECKED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/luckiest_guy"
+        android:textColor="#FFFFE0"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="back"
+        android:textColor="#FFFFE0"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

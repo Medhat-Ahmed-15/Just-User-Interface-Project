@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".Mobille_Application_Assignment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="-284dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Assignments_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="@string/mobile_app_assignments"
+                android:textColor="#C61919"
+                android:textSize="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.045" />
+
+            <Button
+                android:id="@+id/Calculator_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="CALCULATOR"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                android:translationX="180sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.937"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.605" />
+
+            <Button
+                android:id="@+id/Counter_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="COUNTER"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                android:translationX="-85sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.092"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.488" />
+
+            <Button
+                android:id="@+id/Fragments_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="FRAGMENTS TEST"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                android:translationX="180sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.227"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.773" />
+
+            <Button
+                android:id="@+id/question4_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="QUESTION(4)"
+                android:textColor="#FFFFE0"
+                android:textSize="30sp"
+                android:translationX="-85sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.82"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.858" />
+
+            <Button
+                android:id="@+id/question6_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="QUESTION(6)"
+                android:textColor="#FFFFE0"
+                android:textSize="30sp"
+                android:translationX="180sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.27"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.255" />
+
+            <Button
+                android:id="@+id/gesturesAndFragmentsButton"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="@string/gestures_and_fragments"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                android:translationX="-85sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.279" />
+
+            <Button
+                android:id="@+id/colorPicker_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="@string/color_picker"
+                android:textColor="#FFFFE0"
+                android:textSize="30sp"
+                android:translationX="180sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.27"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.255" />
+
+            <Button
+                android:id="@+id/foodMenuListButton"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="@string/food_menu"
+                android:textColor="#FFFFE0"
+                android:textSize="35sp"
+                android:translationX="-85sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.279" />
+
+            <Button
+                android:id="@+id/swipViews_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="@string/swip_views"
+                android:textColor="#FFFFE0"
+                android:textSize="30sp"
+                android:translationX="180sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.27"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.255" />
+
+            <Button
+                android:id="@+id/uploadPicturesAndVideosbutton"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="UPLOAD PICTURES AND VIDEOS"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                android:translationX="-85sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.279" />
+
+            <Button
+                android:id="@+id/spinTheBottle_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="SPIN THE BOTTLE"
+                android:textColor="#FFFFE0"
+                android:textSize="30sp"
+                android:translationX="180sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.27"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.255" />
+
+            <Button
+                android:id="@+id/dice_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="DICE"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                android:translationX="-85sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.279" />
+
+
+            <Button
+                android:id="@+id/notification_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="PUSH NOTIFICATION"
+                android:textColor="#FFFFE0"
+                android:textSize="20sp"
+                android:translationX="180sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.27"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.255" />
+
+
+
+            <Button
+                android:id="@+id/game_button"
+                android:layout_width="156dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="A SIMPLE GAME"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                android:translationX="-85sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.279" />
+
+
+            <Button
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/luckiest_guy"
+                android:gravity="center"
+                android:text="back"
+                android:textColor="#FFFFE0"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.486"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

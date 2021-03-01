@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/gradient_background1"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background2"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background3"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background4"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background5"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background6"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background7"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background8"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background9"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background10"
+        android:duration="4000"/>
+
+    <item
+        android:drawable="@drawable/gradient_background11"
+        android:duration="4000"/>
+
+
+
+</animation-list>
